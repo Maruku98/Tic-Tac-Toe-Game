@@ -18,9 +18,9 @@ Below you'll find the logic behind my game 🕹️
 
 ### GAME STATES
 The App uses several `useState` and one `useEffect` to manage the gameplay
-  - Player turns are handled by `useState turnState`
-  - A winner is detected with `useState winner`
-  - Draw is detected (no player wins) with `useState draw`
+  - Player turns are handled by `useState` `turnState`
+  - A winner is detected with `useState` `winner`
+  - Draw is detected (no player wins) with `useState` `draw`
   - Two more `useState` control `X` and `O` scores. `useEffect` increments by one player's score depending on the `winner` value
 
 ### CONDITIONAL RENDERING
