@@ -5,6 +5,13 @@ Download this project and play Tic Tac Toe with your friends! But don't get mad 
 ## Overview
 Although being a simple project, it really helped me grasp a lot of basic concepts about logical programming
 
+## PROGRAMMING LANGUAGES USED
+- **HTML5**
+- **CSS3**
+- **JavaScript ES6**
+- **React**
+- **Node.js** (to build the app)
+
 ## GAME LOGIC - General Concepts
 
 Below you'll find the logic behind my game 🕹️
