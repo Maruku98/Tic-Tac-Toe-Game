@@ -21,7 +21,7 @@ The App uses several `useState` and one `useEffect` to manage the gameplay
   - Player turns are handled by `useState` `turnState`
   - A winner is detected with `useState` `winner`
   - Draw is detected (no player wins) with `useState` `draw`
-  - Two more `useState` control `X` and `O` scores. `useEffect` increments by one player's score depending on the `winner` value
+  - Two more `useState` control `X` and `O` scores. `useEffect` increments player's score by one depending on the `winner` value
 
 ### CONDITIONAL RENDERING
 The game relies on conditional CSS rendering to show or hide different elements after tje game ends
