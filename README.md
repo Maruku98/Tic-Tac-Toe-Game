@@ -14,7 +14,7 @@ Below you'll find the logic behind my game 🕹️
 - The `innerText` property of each button is changed upon clicking on them. This action is only triggered if the button value is empty to prevent overriding
 - The process is handled by the function `turnChange`
 - There are two buttons available to the user-- one to reset the game and another to reset the score.
-- ⚠️To access `innerText` property, I needed to create a `nodeList` first. However, since JavaScript created it *before* React could render the components to the page, this triggered an error on first load since `nodeList` was empty. SOLUTION: anychronous code! A promise is called to create the `nodeList` with a 10 seconds delay.
+- ⚠️To access `innerText` property, I needed to create a `nodeList` first. However, since JavaScript created it *before* React could render the components to the page, this triggered an error on first load since `nodeList` was empty. SOLUTION: anychronous code! A promise is called to create the `nodeList` with a 10 miliseconds delay.
 
 ### GAME STATES
 The App uses several `useState` and one `useEffect` to manage the gameplay
