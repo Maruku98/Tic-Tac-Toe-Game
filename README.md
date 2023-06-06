@@ -24,7 +24,7 @@ The App uses several `useState` and one `useEffect` to manage the gameplay
   - Two more `useState` control `X` and `O` scores. `useEffect` increments player's score by one depending on the `winner` value.
 
 ### CONDITIONAL RENDERING
-The game relies on conditional CSS rendering to show or hide different elements after tje game ends
+The game relies on conditional CSS rendering to show or hide different elements after the game ends
   - Header color changes according to player color-- blue for `O`, orange for `X`. Perhaps a Portal 2 reference? 🤔
   - Styles change wether one player wins or the game ends in a draw. This displays a text accordingly and hides all elements except reset button.
  
