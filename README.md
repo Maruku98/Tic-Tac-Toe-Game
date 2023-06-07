@@ -12,7 +12,7 @@ Although being a simple project, it really helped me grasp plenty of basic conce
 - **React**
 - **Node.js** (to build the app)
 
-## GAME LOGIC - General Concepts
+## GAME LOGIC
 
 Below you'll find the logic behind my game 🕹️
 
