@@ -9,7 +9,7 @@ Although being a simple project, it really helped me grasp plenty of basic conce
 - **HTML5**
 - **CSS3**
 - **JavaScript ES6**
-- **React**
+- **React** :electron:
 - **Node.js** (to build the app)
 
 ## GAME LOGIC
